@@ -12,7 +12,7 @@ void main() {
 	int j;
 
 	a[0] = 13;
-	printf("Por favor, informe el grado del polinomio..\n");
+	printf("Por favor, informe el grado del polinomio xtxtxtx..\n");
 	cgets(a);
 	li = strtol(a + 2, &p, 10);
 	while (*p != '\0' || li < -32768L || li > 32767L) {
@@ -49,4 +49,7 @@ void main() {
 	printf("\n");
 	printf("El valor del polinomio, para X = %lf es %lf\n", x, R);
 	getch();
+
+    printf("Hola:");
+    printf("Cambios para no borra el otro codigo jijiji:");
 }
